@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1URC2/CO82yqpl4Fr/nWTT5qgAWU1M0IvF7P8uwsMDE=",
+  "Source": "VehicleTracker.API",
+  "BasePath": "_content/VehicleTracker.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

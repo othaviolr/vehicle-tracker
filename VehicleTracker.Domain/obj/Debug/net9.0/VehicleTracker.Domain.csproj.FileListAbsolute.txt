@@ -1,0 +1,12 @@
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\bin\Debug\net9.0\VehicleTracker.Domain.deps.json
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\bin\Debug\net9.0\VehicleTracker.Domain.dll
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\bin\Debug\net9.0\VehicleTracker.Domain.pdb
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\VehicleTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\VehicleTracker.Domain.AssemblyInfoInputs.cache
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\VehicleTracker.Domain.AssemblyInfo.cs
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\VehicleTracker.Domain.csproj.CoreCompileInputs.cache
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\VehicleTracker.Domain.sourcelink.json
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\VehicleTracker.Domain.dll
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\refint\VehicleTracker.Domain.dll
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\VehicleTracker.Domain.pdb
+E:\Projetos\VehicleTracker\VehicleTracker.Domain\obj\Debug\net9.0\ref\VehicleTracker.Domain.dll

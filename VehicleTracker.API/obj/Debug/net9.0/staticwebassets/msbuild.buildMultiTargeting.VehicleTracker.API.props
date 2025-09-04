@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VehicleTracker.API.props" />
+</Project>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VehicleTracker.API</name>
+    </assembly>
+    <members>
+        <member name="M:VehicleTracker.API.Controllers.AlertsController.GetStolenVehicles">
+            <summary>
+            Get all stolen vehicles for security alerts
+            </summary>
+            <returns>List of stolen vehicles</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.AlertsController.GetMaintenanceVehicles">
+            <summary>
+            Get vehicles in maintenance status
+            </summary>
+            <returns>List of vehicles in maintenance</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.LocationsController.GetVehicleLocations(System.Guid,System.Int32,System.Int32,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get vehicle location history with pagination and date filters
+            </summary>
+            <param name="vehicleId">Vehicle ID</param>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Items per page (default: 50, max: 100)</param>
+            <param name="startDate">Filter start date (optional)</param>
+            <param name="endDate">Filter end date (optional)</param>
+            <returns>Paginated location history</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.LocationsController.GetLatestLocation(System.Guid)">
+            <summary>
+            Get vehicle's latest location
+            </summary>
+            <param name="vehicleId">Vehicle ID</param>
+            <returns>Latest location or null if no locations recorded</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.LocationsController.CreateLocation(System.Guid,VehicleTracker.Application.DTOs.Location.CreateLocationDto)">
+            <summary>
+            Record a new location for the vehicle
+            </summary>
+            <param name="vehicleId">Vehicle ID</param>
+            <param name="dto">Location data</param>
+            <returns>Created location</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.VehiclesController.GetVehicles(System.Int32,System.Int32)">
+            <summary>
+            Get all vehicles with pagination
+            </summary>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Items per page (default: 10, max: 100)</param>
+            <returns>Paginated list of vehicles</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.VehiclesController.GetVehicle(System.Guid)">
+            <summary>
+            Get vehicle by ID
+            </summary>
+            <param name="id">Vehicle ID</param>
+            <returns>Vehicle details</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.VehiclesController.GetVehicleByPlate(System.String)">
+            <summary>
+            Get vehicle by plate
+            </summary>
+            <param name="plate">Vehicle plate number</param>
+            <returns>Vehicle details</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.VehiclesController.GetVehiclesByStatus(VehicleTracker.Domain.Enums.VehicleStatus)">
+            <summary>
+            Get vehicles by status
+            </summary>
+            <param name="status">Vehicle status filter</param>
+            <returns>List of vehicles with specified status</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.VehiclesController.CreateVehicle(VehicleTracker.Application.DTOs.Vehicle.CreateVehicleDto)">
+            <summary>
+            Create a new vehicle
+            </summary>
+            <param name="dto">Vehicle creation data</param>
+            <returns>Created vehicle</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.VehiclesController.UpdateVehicleStatus(System.Guid,VehicleTracker.Application.DTOs.Vehicle.UpdateVehicleStatusDto)">
+            <summary>
+            Update vehicle status
+            </summary>
+            <param name="id">Vehicle ID</param>
+            <param name="dto">Status update data</param>
+            <returns>Updated vehicle</returns>
+        </member>
+        <member name="M:VehicleTracker.API.Controllers.VehiclesController.DeleteVehicle(System.Guid)">
+            <summary>
+            Delete vehicle (soft delete)
+            </summary>
+            <param name="id">Vehicle ID</param>
+            <returns>Success confirmation</returns>
+        </member>
+    </members>
+</doc>
